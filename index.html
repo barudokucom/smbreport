@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1fee0302fc.js" crossorigin="anonymous"></script>
+    <style>
+        html {scroll-behavior: smooth;}
+        .ps{background-color:#CF1C7C;color:#FFF;}
+        .ps:hover{background-color:#FFFFFF;color:#000000;}
+        .prc{background-color:#F9E79B;color:#B59D3B;}
+        .prc:hover{background-color:#B59D3B;color:#FFFFFF;}
+        .cdr{background-color:#FFFFFF;color:#000000;}
+        .cdr:hover{background-color:#000000;color:#FFFFFF;border-color: #000000;}
+        h1, h2 {font-family: 'Amatic SC', cursive;font-weight: 700;}
+        h3, h4, h5 {font-family: 'Amatic SC', cursive;font-weight: 400;}
+        .accordion-button:not(.collapsed){color: #000000;background-color: #FFFFFF;}
+        :focus {
+          outline: 0 !important;
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+        }
+        .accordion-button:after {
+          background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23CF1C7C'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+        .ft{background-color: #D4DEE0;}
+        .ftm{color: #333333;text-decoration: none;}
+        .ftm:hover{color: #000000;text-decoration: none;}
+    </style>
+</head>
+  <body>
+    <!-- Menu-->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="130"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #CF1C7C;">
+            <i class="fa-solid fa-bars text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#mengapajustmarriedtoday">Mengapa Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carakerja">Cara Kerja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fitur">Fitur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#desainwebsite">Desain Website</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#harga">Harga</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+            <div class="d-flex" role="search">
+                <a class="btn ps fw-bold" href="#" role="button">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!--/ Menu -->
+    <!-- Hero -->
+    <div class="bg-dark text-secondary px-3 py-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.7) 100%), url(img/topbanner.jpg);background-size: cover;background-repeat:none;background-position: center;background-attachment: fixed;">
+        <div class="py-5">
+            <div class="container text-center ">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-9">
+                <h3 class="text-white">JustMarriedToday</h3>
+                <h1 class="display-1 text-white pt-3 fw-bold">Website Pernikahan Premium Harga Murah</h1>
+                <p class="text-white lead pt-3">Buat website undangan online pernikahanmu. Pilih disain dan sesuaikan dengan gayamu.</p>
+                <p class="pt-3"><a class="btn ps btn-lg fw-bold" href="#mengapajustmarriedtoday" role="button">Pesan Sekarang</a></p>
+              </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Hero -->
+    <!-- Welcome -->
+    <div class="container py-5 text-center" id="mengapajustmarriedtoday">
+        <div class="row mb-5 pt-4">
+            <h2 class="display-4 fw-bold">Mengapa JustMarriedToday?</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/1292763.png" width="80">
+                <p class="text-secondary">Konsultasi desain gratis</p>
+            </div>
+          
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/2779775.png" width="80">
+                <p class="text-secondary">Desain profesional</p>
+            </div>
+          
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/7959969.png" width="80">
+                <p class="text-secondary">Harga murah terjangkau</p>
+            </div>
+          
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/7191062.png" width="80">
+                <p class="text-secondary">Pantau daftar undangan</p>
+            </div>
+          
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/703264.png" width="80">
+                <p class="text-secondary">Pernikahanmu, gayamu</p>
+            </div>
+          </div>
+    </div>
+    <!--/ Welcome -->
+    <!-- Contact -->
+    <div class="bg-dark text-secondary px-3 py-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.8) 100%), url(img/contact-1.jpg);background-size: cover;background-repeat:none;background-position: center;background-attachment: fixed;">
+        <div class="py-3">
+            <div class="container text-center">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h3 class="h1 text-white fw-bold">Sudah siap menikah?</h3>
+                    <p class="text-white lead pt-3">Pilih paket pembuatan desain website kamu yang sesuai dengan budget. Atau kamu punya contoh desain sendiri? kami buatkan.</p>
+                    <p class="pt-3"><a class="btn btn-success fw-bold" href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Hubungi Kami</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Contact -->
+    <!-- Welcome -->
+    <div class="container py-5 text-center" id="carakerja">
+        <div class="row mb-5 pt-4">
+            <h2 class="display-4 fw-bold">Cara Kerja</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/1541399.png" width="80">
+                <p class="text-dark fw-bold fs-5">Pilih desain</p>
+                <p class="text-secondary">Pilih desain di halaman JustMarriedToday</p>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/5230180.png" width="80">
+                <p class="text-dark fw-bold fs-5">Pembayaran</p>
+                <p class="text-secondary">Pilih metode pembayaran yang sesuai</p>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/3419222.png" width="80">
+                <p class="text-dark fw-bold fs-5">Pengerjaan website</p>
+                <p class="text-secondary">Durasi pengerjaan website selama 1 minggu</p>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-3">
+                <img class="mb-3" src="img/1063231.png" width="80">
+                <p class="text-dark fw-bold fs-5">Website Go Live</p>
+                <p class="text-secondary">Bagikan url website kamu secara online</p>
+            </div>
+          </div>
+          <div class="row pt-4 pb-4">
+            <p><a class="btn ps fw-bold" href="#mengapajustmarriedtoday" role="button">Pesan Sekarang</a></p>
+        </div>
+    </div>
+    <!--/ Welcome -->
+    <!-- Fitur -->
+    <div class="container-fluid bg-light py-5" id="fitur">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+            <div class="row mb-5 pt-4">
+                <h2 class="display-4 text-center fw-bold">Fitur</h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-5 mb-4">
+                    <img class="img-fluid rounded h-100" src="img/rtsu.jpg">
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 mb-4">
+                            <div class="card border-0 rounded h-100">
+                                <div class="card-body p-5 ">
+                                <h4 class="h2">Desain Responsive</h4>
+                                <p class="text-secondary pt-2">
+                                    Tampilan website responsive di semua tipe device: Desktop, Laptop, Tablet & Smartphone
+                                </p>
+                                </div>
+                                <div class="card-footer  pb-5 pe-5 ps-5 bg-transparent border-0 text-secondary fs-4 opacity-25">
+                                    <i class="fa-solid fa-desktop"></i>&nbsp;&nbsp;<i class="fa-solid fa-laptop"></i>&nbsp;&nbsp;<i class="fa-solid fa-tablet-screen-button"></i>&nbsp;&nbsp;<i class="fa-solid fa-mobile-screen-button"></i>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 pb-4">
+                            <div class="card border-0 rounded h-100">
+                                <div class="card-body p-5 ">
+                                <h4 class="h2">Video & Photo Gallery</h4>
+                                <p class="text-secondary pt-2">
+                                    Tampilkan moment indah kamu bersama pasangan melalui video maupun galeri photo
+                                </p>
+                                </div>
+                                <div class="card-footer pb-5 pe-5 ps-5 bg-transparent border-0 text-secondary fs-4 opacity-25">
+                                    <i class="fa-solid fa-circle-play"></i>&nbsp;&nbsp;<i class="fa-solid fa-image"></i>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 mb-4">
+                            <div class="card border-0 rounded h-100">
+                                <div class="card-body p-5 ">
+                                <h4 class="h2">Form RSVP</h4>
+                                <p class="text-secondary pt-2">
+                                    Pantau secara realtime data undangan kamu melalui Google Spreadsheet
+                                </p>
+                                </div>
+                                <div class="card-footer pb-5 pe-5 ps-5 bg-transparent border-0 text-secondary fs-4 opacity-25">
+                                    <i class="fa-solid fa-file-excel"></i>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 pb-4">
+                            <div class="card border-0 rounded h-100">
+                                <div class="card-body p-5 ">
+                                <h4 class="h2">Social Share</h4>
+                                <p class="text-secondary pt-2">
+                                    Share website pernikahan kamu ke media sosial dengan tampilan card  yang menarik
+                                </p>
+                                </div>
+                                <div class="card-footer pb-5 pe-5 ps-5 bg-transparent border-0 text-secondary fs-4 opacity-25">
+                                    <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;<i class="fa-brands fa-twitter"></i>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Fitur -->
+    <!-- Desain -->
+    <div class="container-fluid pt-5 pb-4" id="desainwebsite">
+        <div class="container ">
+            <div class="row d-flex justify-content-center">
+                <div class="row mb-5 pt-4">
+                    <h2 class="display-4 text-center fw-bold">Desain Website</h2>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4 mb-4">
+                        <div class="card bg-light rounded border-0 h-100 mb-4">
+                            <img src="img/maria-jacob.jpg" class="card-img-top" alt="...">
+                              <div class="card-body pt-3 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Maria & Jacob</h4>
+                                <p class="card-text text-secondary">Desain website sederhana cocok untuk kamu yang punya budget pas-pasan namun mau terlihat keren.</p>
+                                <a href="#" class="text-decoration-none" style="color:#CF1C7C;">Lihat Desain</a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card bg-light rounded border-0 h-100 mb-4">
+                            <img src="img/joseph-shopia.jpg" class="card-img-top" alt="...">
+                              <div class="card-body pt-3 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Joseph & Shopia</h4>
+                                <p class="card-text text-secondary">Template premium buat kamu yang punya konsep pernikahan unik dengan photo-photo yang unik.</p>
+                                <a href="#" class="text-decoration-none" style="color:#CF1C7C;">Lihat Desain</a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card bg-light rounded border-0 h-100 mb-4">
+                            <img src="img/henry-caroline.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body pt-3 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Paul & Caroline</h4>
+                                <p class="card-text text-secondary">Template premium untuk paket Custom pernikahan kamu atau bisa bawa desain sendiri.</p>
+                                <a href="#" class="text-decoration-none" style="color:#CF1C7C;">Lihat Desain</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 text-center">
+                <p><a class="btn btn-dark fw-bold" href="#mengapajustmarriedtoday" role="button">Lihat Lebih Banyak <i class="fa-solid fa-arrow-right-long"></i></a></p>
+            </div>
+        </div>
+    </div>
+    <!--/ Desain -->
+    <!-- Desain -->
+    <div class="container-fluid py-5" id="harga">
+        <div class="container pb-4">
+            <div class="row d-flex justify-content-center">
+                <div class="row pb-3">
+                    <h2 class="display-4 text-center fw-bold">Harga Pembuatan Website</h2>
+                </div>
+                <div class="row mb-5 pt-3">
+                    <div class="col-md-6">
+                        <p class="lead fs-3 text-secondary lh-sm">JustMarriedToday memberikan harga yang terjangkau dengan kualitas desain premium untuk pernikahan kamu</p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="badge bg-light text-dark me-2 fs-6 mb-2"><i class="fa-solid fa-check text-info"></i> Responsive (All device)</span>
+                        <span class="badge bg-light text-dark me-2 fs-6 mb-2"><i class="fa-solid fa-check text-info"></i> Desain premium</span>
+                        <span class="badge bg-light text-dark fs-6 mb-2"><i class="fa-solid fa-check text-info"></i> Gallery photo & Video</span>
+                        <span class="badge bg-light text-dark me-2 me-2 fs-6 mb-2"><i class="fa-solid fa-check text-info"></i> RSVP</span>
+                        <span class="badge bg-light text-dark fs-6 mb-2"><i class="fa-solid fa-check text-info"></i> Realtime data undangan</span>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-4 mb-4">
+                        <div class="card rounded border-0 h-100 mb-4">
+                              <div class="card-body pt-5 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Paket Standard</h4>
+                                <p class="card-text text-dark pt-4 fs-1 "><sup>Rp</sup><span class="fw-bold display-1">50</span><sup>.000</sup></p>
+                                <a class="btn prc btn-lg mt-3" href="#" role="button">Pesan Sekarang <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <p class="card-text text-secondary pt-4">Cocok buat kamu yang punya budget minim dengan desain premium</p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-light rounded border-0 h-100 mb-4" style="background-color: #CF1C7C;">
+                              <div class="card-body pt-5 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Paket Medium <span class="badge text-bg-warning">HOT</span></h4>
+                                <p class="card-text text-light pt-4 fs-1"><sup>Rp</sup><span class="fw-bold display-1">100</span><sup>.000</sup></p>
+                                <a class="btn cdr btn-lg mt-3" href="#" role="button">Pesan Sekarang <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <p class="card-text text-light pt-4">Paket yang paling pas buat kamu yang punya gallery photo dan video dengan desain premium</p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card rounded border-0 h-100 mb-4">
+                              <div class="card-body pt-5 pb-4 ps-5 pe-5">
+                                <h4 class="h2 card-title">Paket Custom</h4>
+                                <p class="card-text text-dark pt-4 fs-1"><sup>Rp</sup><span class="fw-bold display-1">150</span><sup>.000</sup></p>
+                                <a class="btn prc btn-lg mt-3" href="#" role="button">Pesan Sekarang <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <p class="card-text text-secondary pt-4">Tidak menemukan desain yang pas? punya desain sendiri? ini pilihan pas buat kamu.</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Desain -->
+    <!-- Contact -->
+    <div class="bg-dark text-secondary px-3 py-5" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.8) 100%), url(img/cnt.jpg);background-size: cover;background-repeat:none;background-position: center;background-attachment: fixed;">
+        <div class="py-3">
+            <div class="container text-center">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <h3 class="h1 text-white fw-bold">Sudah siap menikah?</h3>
+                    <p class="text-white lead pt-3">Pilih paket pembuatan desain website kamu yang sesuai dengan budget. Atau kamu punya contoh desain sendiri? kami buatkan.</p>
+                    <p class="pt-3"><a class="btn btn-success fw-bold" href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Hubungi Kami</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Contact -->
+    <!-- FAQ -->
+    <div class="container-fluid py-5" id="faq">
+        <div class="container pb-4 pt-4">
+            <div class="row d-flex justify-content-center">
+                <div class="row pb-3">
+                    <h2 class="display-4 text-center fw-bold">FAQ</h2>
+                </div>
+                <div class="row mb-5 pt-3 d-flex justify-content-center">
+                    <div class="col-md-9">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingOne">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                               JustMarrieToday itu apa?
+                              </button>
+                            </p>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">JustMarriedToday merupakan jasa pembuatan website pernikahan dengan harga terjangkau dengan desain premium dan kekinian. Cukup sampaikan kebutuhan kamu biar kami yang membuatkan untuk kamu.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingTwo">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Apakah user dapat akses edit website?
+                              </button>
+                            </p>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">Di JustMarriedToday tidak ada konten manajemen bagi user untuk meng-edit website nya. Kami menawarkan 5 kali revisi. Dan tentunya kami terbuka terhadap usulan desain dari user.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingThree">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Apakah ada masa berlaku website?
+                              </button>
+                            </p>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">Di JustMarriedToday tidak ada berlaku masa tayang website. Website pernikahan kamu akan selamanya ada di website JustMarriedToday.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingFour">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Berapa lama waktu pembuatan wesbite?
+                              </button>
+                            </p>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">Proses pembuatan website dimulai ketika pembayaran sudah dikomfirmasi dan membutuhkan waktu maksimal 1 minggu pengerjaan.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingFive">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Apakah saya bisa merevisi desain website saya?
+                              </button>
+                            </p>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">Tentu bisa. JustMarriedToday memberikan 5 kali revisi desain.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingSix">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Bagaimana jika terjadi kendala saat website di akses?
+                              </button>
+                            </p>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">JustMarriedToday akan segera merespon setiap laporan yang masuk terkait akses wesbite yang terkendala 24/7. Team kami akan memastikan website kamu akan selalu aktif.</div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <p class="accordion-header fw-bold" id="flush-headingSeven">
+                              <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSix">
+                                Kenapa harganya murah di JustMarriedToday?
+                              </button>
+                            </p>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body text-secondary">JustMarriedToday merupakan layanan jasa pembuatan website pernikahan yang membantu mempelai memiliki undangan online dalam bentuk website dengan budget terbatas. Desain yang kami berikan merupakan desain premium.</div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ -->
+    <!-- Footer -->
+    <div class="container-fluid ft">
+        <div class="container py-5">
+            <div class="row pt-4">
+                <div class="col-md-3 order-lg-first order-last">
+                    <img src="img/logo.png" width="130">
+                    <p class="pt-4">Perumahan Dalung Indah No.12B<br>Badung, Bali, Indonesia</p>
+                    <p><small>&copy; 2022 JustMarriedToday.</small></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="fs-3">Menu</h5>
+                    <p class="pt-4"><a class="ftm" href="">Tentang Kami</a></p>
+                    <p><a class="ftm" href="">Syarat & Ketentuan</a></p>
+                    <p><a class="ftm" href="">Kebijakan Privasi</a></p>
+                    <p><a class="ftm" href="">FAQ</a></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="fs-3">Contact</h5>
+                    <p class="pt-4"><a class="ftm" href="mailto:ello@justmarriedtoday.com"><i class="fa-solid fa-envelope"></i> hello@justmarriedtoday.com</a></p>
+                    <p><a class="ftm" href="tel:087790655411"><i class="fa-brands fa-whatsapp"></i> +62877 9065 5411</a></p>
+                    <p><a class="ftm" href="https://www.facebook.com/Justmarriedtodaycom"><i class="fa-brands fa-facebook-f"></i> justmarriedtoday</a></p>
+                    <p><a class="ftm" href=""><i class="fa-brands fa-instagram"></i> justmarriedtoday</a></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="fs-3">Metode Pembayaran</h5>
+                    <p class="pt-3">
+                        <img class="img-fluid" src="img/payment-method.png">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
